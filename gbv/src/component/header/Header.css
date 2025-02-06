@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+header{
+    background: #b062b0d7;
+}
+nav{
+    margin-right: 20px;
+}
+header nav ul li{
+    padding:5px;
+    font-size: 18px;
+}
+header nav ul li:active{
+    color: #3e1369;
+}
