@@ -1,20 +1,33 @@
-import './App.css'
-import Home from './component/Home/Home'
+import { Routes, Route, Link } from "react-router-dom";
+import "./App.css";
+import Home from "./component/Home/Home";
+import Contact from "./component/Contact/Contact";
+import Header from "./component/header/header";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+
       <footer>
         <blockquote>
-        " Your voice matters. Together, we can make a difference. "
+          " Your voice matters. Together, we can make a difference. "
         </blockquote>
         <nav>
           <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
             <li>About us</li>
             <li>Get Help</li>
             <li>Resources</li>
-            <li>Contact</li>
+            <li>
+              <Link to="/Contact">Contact</Link>
+            </li>
             <li>Privacy Policy</li>
             <li>Terms and Conditions</li>
           </ul>
@@ -22,7 +35,6 @@ function App() {
       </footer>
     </div>
   );
-  
 }
 
-export default App
+export default App;

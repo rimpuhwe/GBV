@@ -1,12 +1,12 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import Button from "../button/button";
+import Button from "../button/Button";
 import { motion } from "framer-motion";
 import "../Home/Home.css";
 
 const text = [
   { text: "Together, We Can End Gender-Based Violence" },
-  { text: "Hand on Hand , We can end GBV" },
+  { text: "Hand on Hand , We can end Gender-Based Violence" },
   { text: "Be aware of the violence you are facing" },
   { text: "Safe place to get help and support" },
 ];
@@ -33,7 +33,7 @@ function Home() {
           height="auto"
           transition={{ duration: 1, ease: "easeInOut" }}
         />
-        <motion.p className="absolute top-50 left-10 text-3xl font-bold text-white z-3"
+        <motion.p className="absolute top-70 left-10 text-3xl font-bold text-white z-3"
           
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -47,7 +47,6 @@ function Home() {
         <div className="w-4/10 absolute bottom-20 right-5 flex justify-between items-center">
           <Button children="Report an incident"  />
           <Button children="Get Support"  />
-          <Button children="Learn More"  />
         </div>
       </div>
     </div>
