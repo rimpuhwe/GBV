@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+.info-container{
+    background: rgb(39, 37, 39);
+    color:aliceblue
+}
+
+.info-container div{
+    padding:8px 20px;
+}
+.social-icon{
+    margin-right:10px;
+    font-size:14px;
+}

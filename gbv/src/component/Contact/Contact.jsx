@@ -18,8 +18,8 @@ function Contact() {
             />   
         </div>
         <div>
-            <h2 className='text-center text-6xl font-bold text-purple-900 mb-30'>Contact Us</h2>
-            <p className='mx-auto my-30 text-center text-xl text-gray-600'>Feel free to reach out with any questions or concerns. We have a team of experienced professionals ready to assist you.</p>
+            <h2 className='text-center text-5xl font-bold text-purple-900 mb-30'>Contact Us</h2>
+            <p className='mx-auto my-30 text-center text-xl text-gray-600'>Feel free to reach out with any questions , concerns or partner with us. We have a team of experienced professionals ready to assist you.</p>
             <form action="" className='border border-dashed w-1/2 '>
                 <input type="text" name="" id="" placeholder='Name '/>
                 <input type="email" name="" id="" placeholder='Email'/>

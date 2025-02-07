@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+
   
 .btn {
     padding: 5px 20px;
@@ -10,4 +11,30 @@
     margin-right: 10px;
     font-weight: bold;
 }
-  
+section h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #36454F;
+    margin:5px 0;
+}
+section{
+    padding: 10px 20px;
+}
+ section p{
+    margin:10px 0;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.commitment{
+    margin-bottom: 5rem;
+}
+section ol,section ul{
+    margin-left: 15px;
+    line-height: 30px;
+}
+section ul{
+    list-style:disc;
+}
+section ol{
+    list-style-type: decimal;
+}

@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+.list{
+    padding:5px 10px;
+    border-bottom:1px solid white;
+
+}
+.list-container{
+    display: none;
+}

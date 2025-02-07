@@ -14,7 +14,7 @@ input,textarea{
 }
 form{
     margin:20px auto;
-    padding:5px 10px;
+    padding:5px 7px;
     
 }
 textarea{
@@ -33,5 +33,5 @@ button{
     transition: background 0.5s ease;
 }
 button:hover{
-    background: rgb(180, 65, 180);
+    background: #b8bcfa;
 }

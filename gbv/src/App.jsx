@@ -3,13 +3,19 @@ import "./App.css";
 import Home from "./component/Home/Home";
 import Contact from "./component/Contact/Contact";
 import Header from "./component/header/header";
+import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
+import About from "./component/About/About";
+
 
 function App() {
   return (
     <div className="App">
+      
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/About-us" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
 
@@ -22,7 +28,9 @@ function App() {
             <li>
               <Link to="/">Home</Link>
             </li>
-            <li>About us</li>
+            <li>
+              <Link to="/About-us">About us</Link>
+              </li>
             <li>Get Help</li>
             <li>Resources</li>
             <li>
