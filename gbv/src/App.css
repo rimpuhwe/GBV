@@ -74,10 +74,8 @@ blockquote{
   .impact-container{
     flex-direction: column;
   }
-  .impact-container div{
-    border:1px solid;
-    width:60%;
-    padding: 5px;
+  .impact-container .impact-case{
+    width:70%;
   }
   .pop-message{
     top:80px !important;
@@ -86,6 +84,29 @@ blockquote{
   }
   .info-container{
     display: none;
+  }
+  .option{
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    width:100%;
+    padding: 0;
+
+  }
+  .option div{
+   width:100%;
+  }
+  .Q-container{
+    width:100%;
+  }
+  .help-buttons{
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .help-buttons button{
+    width:100%;
+    padding:5px 10px;
   }
 }
 @media (min-width: 501px) and (max-width:768px){
@@ -135,13 +156,29 @@ blockquote{
   }
   .impact-container{
     flex-direction: column;
-    border:1px solid;
     padding: 0;
     
   }
-  .impact-container div{
+  .impact-container .impact-case{
+    width:50%;
+  }
+  .h2-impact{
+    text-align: center;
+  }
+  .option{
+    flex-direction: column;
+    justify-content: center;
     width:100%;
-    border:1px solid;
-
+    padding: 0;
+  }
+  .option .option-case{
+    width:70%;
+    margin-bottom: 15px;
+  }
+  .Q-container{
+    width:80%;
+  }
+  .help-buttons{
+    width:80%
   }
 }

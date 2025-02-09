@@ -75,16 +75,16 @@ function About() {
         </ul>
       </section>
       <section className="bg-indigo-500/30">
-        <h2>Our Impact</h2>
+        <h2 className="h2-impact">Our Impact</h2>
         <div className="impact-container w-full">
-          <div>
+          <div className="impact-case">
             <h2>1,000+</h2>
             <span>
               We've provided survivors with professional guidance to help them
               reclaim their lives and rights.
             </span>
           </div>
-          <div>
+          <div className="impact-case">
             <h2>20,000+</h2>
             <span>
               People reached through awareness campaigns. By engaging the
@@ -92,7 +92,7 @@ function About() {
               GBV.
             </span>
           </div>
-          <div>
+          <div className="impact-case">
             <h2>10</h2>
             <span>
               Partner organizations working together to combat GBV.

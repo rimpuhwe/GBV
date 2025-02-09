@@ -5,6 +5,8 @@ import Contact from "./component/Contact/Contact";
 import Header from "./component/header/header";
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 import About from "./component/About/About";
+import GetStarted from "./component/GetStarted/GetStarted";
+import Help from "./component/Help/Help";
 
 
 function App() {
@@ -13,10 +15,13 @@ function App() {
       
       <ScrollToTop />
       <Header />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About-us" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Get Started" element={<GetStarted />} />
+        <Route path="/Help" element={<Help />} />
       </Routes>
 
       <footer>
